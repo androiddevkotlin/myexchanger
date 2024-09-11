@@ -1,0 +1,27 @@
+<resources>
+	<string name="app_name">MyExchanger</string>
+	<string name="balance_title">My balances</string>
+	<string name="currency_exchange_title">Currency Exchange</string>
+
+	<string name="sell_amount_edit_text_hint">Amount</string>
+
+	<string name="sell_text">Sell</string>
+	<string name="receive_text">Receive</string>
+	<string name="submit_button_text">Submit</string>
+	<string name="dialog_positive_button_text">Done</string>
+
+	<string name="sell_divider_description">Divider</string>
+	<string name="receive_image_view_description">Arrow down</string>
+	<string name="receive_divider_description">Divider</string>
+	<string name="sell_image_view_description">Arrow up</string>
+
+	<string name="receive_amount_format_text">%1$+.2f</string>
+	<string name="balance_item_format_text">%1$.2f %2$s</string>
+
+	<string name="submit_success_message_format_text">You have converted %1$s to\n%2$s. Commission Fee - %3$s.</string>
+	<string name="submit_small_amount_message_format_text">You have less money (%1$s)\non your balance than indicated in the\nconversion plus commission (%2$s).</string>
+	<string name="submit_no_balance_type_message_format_text">You have no %1$s balance</string>
+	<string name="submit_same_type_message_format_text">You have chosen same currency %1$s\nfor exchange</string>
+	<string name="submit_no_types_message_format_text">Currency types haven\'t fetched</string>
+	<string name="no_internet_text">No internet connection</string>
+</resources>

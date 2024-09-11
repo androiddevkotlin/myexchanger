@@ -1,0 +1,13 @@
+<resources>
+
+	<style name="Base.Theme.MyExchanger" parent="Theme.Material3.DayNight.NoActionBar">
+		<item name="android:statusBarColor">@color/app</item>
+		<item name="android:navigationBarColor">@color/app</item>
+	</style>
+
+	<style name="Theme.Splash" parent="Theme.SplashScreen">
+		<item name="windowSplashScreenBackground">@color/splash</item>
+		<item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+		<item name="postSplashScreenTheme">@style/Base.Theme.MyExchanger</item>
+	</style>
+</resources>
